@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, Header
 from app.models.fbm_model import FBMUpload, FBMStatusResponse
 from app.services.geocledian_client import save_and_trigger_validation, get_status
 
-API_KEY = "your-secure-api-key"  # Replace with real secret
+API_KEY = "your-secure-api-key"  # Replace with real secret I give you
 
 router = APIRouter()
 
